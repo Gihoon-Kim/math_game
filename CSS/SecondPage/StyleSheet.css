@@ -1,0 +1,45 @@
+﻿* {
+    padding:0;
+    margin:0;
+}
+
+#container {
+    padding: 40vh 40vw;
+}
+
+label {
+    color:blue;
+    font-weight: bold;
+}
+#music {
+    background-image:url("../../Image/Pause.png");
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form {
+    padding: 2rem;
+    display:inline-block;
+    text-align:center;
+}
+
+
+#playBtn {
+    position:center;
+    background:none;
+    border:none;
+    color:red;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+body {
+    background-image: url("../../Image/magic.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}

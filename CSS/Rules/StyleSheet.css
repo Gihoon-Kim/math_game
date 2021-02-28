@@ -1,0 +1,27 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+    background-image: url("../../Image/Result.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#container {
+    position: absolute;
+    margin: 10rem 0 0 25rem;
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 80px 80px;
+}
+
+ol {
+    padding : 3rem;
+}

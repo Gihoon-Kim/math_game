@@ -1,0 +1,53 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    height:100vh;
+    width:100vh;
+    background-image:url("../../Image/Result.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+
+#container {
+    position:absolute;
+    margin:10rem 0 0 25rem;
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    border-radius:80px 80px;
+}
+
+#music {
+    position: absolute;
+    background-image: url("../../Image/Pause.png");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left:40rem;
+}
+
+
+#gridDiv {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#grid > div {
+    background-color:red;
+}
+
+label {
+    font-size:2rem;
+}
+
+h1 {
+    font-size:3rem;
+    color:red;
+}
